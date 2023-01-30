@@ -25,6 +25,7 @@ section {
 
 .list-group-item.todo {
     border-bottom-color: #dad8d8;
+    cursor: move;
 }
 
 .todo-checkbox {
