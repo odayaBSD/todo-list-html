@@ -1,0 +1,25 @@
+.dark .list-group-item .todo-checkbox {
+    border-color: #666;
+}
+
+.dark .list-group-item.new_todo .adding_form input {
+    border-color: #666;;
+}
+
+.dark .list-group-item.new_todo .adding_form button {
+    background-color: #66666638;
+    color: #666;
+}
+
+.dark.app {
+    background-color: #1a1a1a;
+}
+
+.dark .list-group-item {
+    border-color: transparent;
+    background-color: #292929;
+}
+
+.dark .list-group-item.todo {
+    border-bottom-color: #343434;
+}

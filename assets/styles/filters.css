@@ -1,0 +1,16 @@
+.filters {
+    color: #666;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.filters button {
+    background-color: transparent;
+    border: none;
+    color: #666;
+}
+
+.filters button.active {
+    color: #5594f2;
+}

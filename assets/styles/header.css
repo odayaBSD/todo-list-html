@@ -1,0 +1,14 @@
+.header_wrapper {
+    display: grid;
+    grid-template-columns: auto fit-content(50%);
+    align-items: center !important;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.header_text {
+    width: fit-content;
+    letter-spacing: 15px;
+    font-weight: bolder;
+    font-family: comfortaa Medium;
+}
