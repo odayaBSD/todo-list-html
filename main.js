@@ -224,7 +224,7 @@ const createFooterList = () => {
     label.innerText = `${unCompleted_cnt()} items left`;
     li.append(label);
 
-    if (isMobile) {
+    if (!isMobile) {
         li.append(createFilters());
     }
 
@@ -238,7 +238,7 @@ const createFooterList = () => {
 
 const createFiltering = () => {
     let filtering = document.getElementById('filtering');
-    if (!isMobile) {
+    if (isMobile) {
         filtering.innerHTML = '';
         filtering.append(createFilters());
     }
@@ -256,7 +256,7 @@ const createList = () => {
 
 const updateView = () => {
     let filtering = document.getElementById('filtering');
-    (isMobile) ? hide(filtering) : show(filtering);
+    (!isMobile) ? hide(filtering) : show(filtering);
 
     document.getElementById('todos-list').removeChild(document.getElementsByClassName('footer_list')[0]);
     createFooterList();
